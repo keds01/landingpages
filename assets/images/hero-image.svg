@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond avec dégradé -->
+  <rect width="600" height="400" fill="url(#paint0_linear)"/>
+  
+  <!-- Bâtiment de la clinique (stylisé) -->
+  <rect x="100" y="150" width="300" height="200" rx="5" fill="#ffffff"/>
+  <rect x="130" y="180" width="60" height="80" rx="3" fill="#e6f7ff"/>
+  <rect x="220" y="180" width="60" height="80" rx="3" fill="#e6f7ff"/>
+  <rect x="310" y="180" width="60" height="80" rx="3" fill="#e6f7ff"/>
+  <rect x="190" y="290" width="120" height="60" rx="3" fill="#e6f7ff"/>
+  
+  <!-- Toit -->
+  <path d="M80 150L250 80L420 150" fill="#1241a0"/>
+  
+  <!-- Croix médicale -->
+  <rect x="225" y="100" width="50" height="15" rx="2" fill="#20bf55"/>
+  <rect x="242.5" y="82.5" width="50" height="15" rx="2" transform="rotate(90 242.5 82.5)" fill="#20bf55"/>
+  
+  <!-- Médecins (stylisés) -->
+  <circle cx="450" cy="200" r="50" fill="#1241a0"/>
+  <circle cx="450" cy="180" r="20" fill="#f5f5f5"/>
+  <rect x="415" y="230" width="70" height="120" rx="5" fill="#1241a0"/>
+  
+  <circle cx="520" cy="230" r="40" fill="#20bf55"/>
+  <circle cx="520" cy="215" r="15" fill="#f5f5f5"/>
+  <rect x="495" y="250" width="50" height="100" rx="5" fill="#20bf55"/>
+  
+  <!-- Ligne d'horizon -->
+  <rect x="0" y="350" width="600" height="50" fill="#f0f0f0"/>
+  
+  <!-- Battement cardiaque -->
+  <path d="M50 100L80 100L95 70L110 130L125 100L150 100" stroke="#ff4d4d" stroke-width="3"/>
+  
+  <!-- Définition du dégradé -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="300" y1="0" x2="300" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a1dcae" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#e6f7ff" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="60" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Symbole médical avec cœur -->
+  <path d="M35 10C27.268 10 21 16.268 21 24C21 37 35 50 35 50C35 50 49 37 49 24C49 16.268 42.732 10 35 10Z" fill="white"/>
+  <path d="M30.5 27.5L35 32L39.5 27.5L44 32L48.5 27.5" stroke="#20bf55" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="50" cy="18" r="8" fill="#a1dcae"/>
+  <path d="M50 14V22" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M46 18H54" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Texte "CLINIQUE" -->
+  <path d="M65 22.5C65 20.0147 67.0147 18 69.5 18H71.5C73.9853 18 76 20.0147 76 22.5V22.5C76 24.9853 73.9853 27 71.5 27H69.5C67.0147 27 65 24.9853 65 22.5V22.5Z" fill="white"/>
+  <path d="M78 18H79.5C81.9853 18 84 20.0147 84 22.5V22.5C84 24.9853 81.9853 27 79.5 27H78V18Z" fill="white"/>
+  <rect x="86" y="18" width="3" height="9" fill="white"/>
+  <path d="M91 18H96L98 27H94L91 18Z" fill="white"/>
+  <rect x="100" y="18" width="3" height="9" fill="white"/>
+  <path d="M105 22.5C105 20.0147 107.015 18 109.5 18H111.5C113.985 18 116 20.0147 116 22.5V22.5C116 24.9853 113.985 27 111.5 27H109.5C107.015 27 105 24.9853 105 22.5V22.5Z" fill="white"/>
+  <path d="M118 18H123L125 22.5L123 27H118V18Z" fill="white"/>
+  <path d="M127 18H132C134.209 18 136 19.7909 136 22V22C136 24.2091 134.209 26 132 26H127V18Z" fill="white"/>
+  
+  <!-- Texte "ESPERANCE" -->
+  <path d="M65 38H77V40H65V38Z" fill="white"/>
+  <path d="M65 42H75V44H65V42Z" fill="white"/>
+  <path d="M65 46H77V48H65V46Z" fill="white"/>
+  <path d="M79 38C79 35.7909 80.7909 34 83 34H87C89.2091 34 91 35.7909 91 38V38C91 40.2091 89.2091 42 87 42H83C80.7909 42 79 40.2091 79 38V38Z" fill="white"/>
+  <path d="M79 44C79 41.7909 80.7909 40 83 40H87C89.2091 40 91 41.7909 91 44V44C91 46.2091 89.2091 48 87 48H83C80.7909 48 79 46.2091 79 44V44Z" fill="white"/>
+  <path d="M93 34H97C99.2091 34 101 35.7909 101 38V38C101 40.2091 99.2091 42 97 42H93V34Z" fill="white"/>
+  <path d="M93 42H97C99.2091 42 101 43.7909 101 46V46C101 48.2091 99.2091 50 97 50H93V42Z" fill="white"/>
+  <path d="M103 34H107C109.209 34 111 35.7909 111 38V38C111 40.2091 109.209 42 107 42H103V34Z" fill="white"/>
+  <path d="M103 42H107C109.209 42 111 43.7909 111 46V46C111 48.2091 109.209 50 107 50H103V42Z" fill="white"/>
+  <path d="M114 34L118 34L122 42L126 34L130 34L122 50L114 34Z" fill="white"/>
+  <path d="M131 34H143V36H131V34Z" fill="white"/>
+  <path d="M131 40H141V42H131V40Z" fill="white"/>
+  <path d="M131 46H143V48H131V46Z" fill="white"/>
+  <path d="M145 34H149C151.209 34 153 35.7909 153 38V46C153 48.2091 151.209 50 149 50H145V34Z" fill="white"/>
+  <path d="M155 34H167V36H155V34Z" fill="white"/>
+  <path d="M155 40H165V42H155V40Z" fill="white"/>
+  <path d="M155 46H167V48H155V46Z" fill="white"/>
+  <path d="M169 34H181C183.209 34 185 35.7909 185 38V38C185 40.2091 183.209 42 181 42H169V34Z" fill="white"/>
+  <path d="M169 42H181C183.209 42 185 43.7909 185 46V46C185 48.2091 183.209 50 181 50H169V42Z" fill="white"/>
+  <path d="M187 34H199C201.209 34 203 35.7909 203 38V38C203 40.2091 201.209 42 199 42H187V34Z" fill="white"/>
+  <path d="M187 42H199C201.209 42 203 43.7909 203 46V46C203 48.2091 201.209 50 199 50H187V42Z" fill="white"/>
+  
+  <!-- Ligne séparatrice -->
+  <path d="M207 22.5H235" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M213 38.5H229" stroke="#a1dcae" stroke-width="2" stroke-linecap="round"/>
+  <path d="M220 15V46" stroke="#a1dcae" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Tagline -->
+  <text x="69" y="56" font-family="Arial" font-size="7" fill="white">SOINS MÉDICAUX ET CARDIOLOGIQUES</text>
+</svg>

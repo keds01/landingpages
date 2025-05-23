@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="350" viewBox="0 0 300 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="350" fill="#e8e8e8"/>
+  <circle cx="150" cy="120" r="70" fill="#20bf55"/>
+  <circle cx="150" cy="100" r="30" fill="#f5f5f5"/>
+  <path d="M100 200C100 166.863 126.863 140 160 140H180C213.137 140 240 166.863 240 200V350H100V200Z" fill="#20bf55"/>
+  <rect x="60" y="300" width="180" height="50" fill="#20bf55"/>
+  <text x="150" y="250" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Pr. PESSINABA SOULEMANE</text>
+  <text x="150" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Cardiologue</text>
+</svg>

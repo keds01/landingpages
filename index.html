@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clinique Médicale et Cardiologique - Des soins de qualité pour votre santé">
+    <title>Clinique Esperance - Soins Médicaux et Cardiologiques</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">
+                    <img src="./assets/images/logo.svg" alt="Clinique Esperance Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#hero" class="nav-link">Accueil</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">À Propos</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#team" class="nav-link">Équipe</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="appointment-btn">Prendre rendez-vous</button>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title">Nous prenons soin de votre santé saine</h1>
+                <p class="hero-subtitle">Une équipe d'experts dédiée à vous offrir les meilleurs soins médicaux et cardiologiques</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Découvrir nos services</a>
+                    <a href="#contact" class="btn btn-secondary">Prendre rendez-vous</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                <img src="./assets/images/hero-image.svg" alt="Équipe médicale professionnelle">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">À Propos de la Clinique</h2>
+                    <p class="section-subtitle">Une approche centrée sur le patient</p>
+                </div>
+                <div class="about-description" data-aos="fade-up" data-aos-delay="100">
+                    <p>La Clinique Esperance est dédiée à fournir des soins de santé de haute qualité, avec une attention particulière aux affections cardiologiques. Notre mission est d'offrir des traitements innovants et personnalisés dans un environnement chaleureux et professionnel.</p>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="stat-number">25+</h3>
+                        <p class="stat-text">Médecins professionnels</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="stat-number">1120+</h3>
+                        <p class="stat-text">Patients satisfaits</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                        <h3 class="stat-number">225+</h3>
+                        <p class="stat-text">Chirurgies réussies</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="500">
+                        <h3 class="stat-number">683+</h3>
+                        <p class="stat-text">Prix internationaux</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Nos Services</h2>
+                <p class="section-subtitle">Des soins complets pour votre bien-être</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <img src="./assets/images/icons/general-medicine.svg" alt="Médecine générale">
+                    </div>
+                    <h3 class="service-title">Médecine générale</h3>
+                    <p class="service-description">Consultations et soins pour tous types de pathologies courantes.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <img src="./assets/images/icons/cardiology.svg" alt="Cardiologie">
+                    </div>
+                    <h3 class="service-title">Cardiologie</h3>
+                    <p class="service-description">Diagnostic et traitement des affections cardiovasculaires.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <img src="./assets/images/icons/traumatology.svg" alt="Traumatologie">
+                    </div>
+                    <h3 class="service-title">Traumatologie</h3>
+                    <p class="service-description">Soins des fractures, entorses et autres lésions traumatiques.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <img src="./assets/images/icons/vaccination.svg" alt="Vaccinations">
+                    </div>
+                    <h3 class="service-title">Vaccinations</h3>
+                    <p class="service-description">Services de vaccination pour tous les âges.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <img src="./assets/images/icons/childbirth.svg" alt="Accouchements">
+                    </div>
+                    <h3 class="service-title">Accouchements</h3>
+                    <p class="service-description">Suivi de grossesse et accouchements en toute sécurité.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <img src="./assets/images/icons/surgery.svg" alt="Petites chirurgies">
+                    </div>
+                    <h3 class="service-title">Petites chirurgies</h3>
+                    <p class="service-description">Interventions chirurgicales mineures et ambulatoires.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-icon">
+                        <img src="./assets/images/icons/analysis.svg" alt="Analyses médicales">
+                    </div>
+                    <h3 class="service-title">Analyses médicales</h3>
+                    <p class="service-description">Examens de sang, d'urine et autres analyses biologiques essentielles au diagnostic.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="service-icon">
+                        <img src="./assets/images/icons/imaging.svg" alt="Imagerie médicale">
+                    </div>
+                    <h3 class="service-title">Imagerie médicale</h3>
+                    <p class="service-description">Radiographies, échographies et autres techniques d'imagerie pour un diagnostic précis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Notre Équipe Médicale</h2>
+                <p class="section-subtitle">Des professionnels expérimentés à votre service</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-image">
+                        <img src="./assets/images/team/doctor1.svg" alt="Pr. Jean Marie DAMOROU">
+                    </div>
+                    <h3 class="team-name">Pr. Jean Marie DAMOROU</h3>
+                    <p class="team-position">Cardiologue</p>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-image">
+                        <img src="./assets/images/team/doctor2.svg" alt="Dr. ZARAMI SAMDINE">
+                    </div>
+                    <h3 class="team-name">Dr. ZARAMI SAMDINE</h3>
+                    <p class="team-position">Cardiologue</p>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-image">
+                        <img src="./assets/images/team/doctor3.svg" alt="Dr. DJIBOM JULES">
+                    </div>
+                    <h3 class="team-name">Dr. DJIBOM JULES</h3>
+                    <p class="team-position">Traumatologue</p>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-image">
+                        <img src="./assets/images/team/doctor4.svg" alt="Pr. PESSINABA SOULEMANE">
+                    </div>
+                    <h3 class="team-name">Pr. PESSINABA SOULEMANE</h3>
+                    <p class="team-position">Cardiologue</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Notre Processus de Soins</h2>
+                <p class="section-subtitle">Une approche structurée pour votre santé</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Consultation</h3>
+                        <p class="step-description">Première rencontre avec votre médecin pour discuter de vos symptômes et antécédents.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-right" data-aos-delay="200">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Diagnostic</h3>
+                        <p class="step-description">Évaluation approfondie pour déterminer la cause de vos symptômes.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Traitement</h3>
+                        <p class="step-description">Plan de soins personnalisé basé sur votre diagnostic spécifique.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-aos="fade-right" data-aos-delay="400">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Suivi</h3>
+                        <p class="step-description">Rendez-vous réguliers pour surveiller votre progression et ajuster le traitement si nécessaire.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Questions Fréquentes</h2>
+                <p class="section-subtitle">Trouvez rapidement des réponses à vos questions</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>Quels sont vos horaires d'ouverture ?</h3>
+                        <span class="faq-toggle"></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>La clinique est ouverte du lundi au vendredi de 8h à 18h, et le samedi de 8h à 12h. Les urgences sont assurées 24h/24 et 7j/7.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Comment prendre rendez-vous ?</h3>
+                        <span class="faq-toggle"></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Vous pouvez prendre rendez-vous par téléphone au (+228) 93 05 39 70, via notre formulaire de contact en ligne, ou directement à l'accueil de la clinique.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>Acceptez-vous les assurances médicales ?</h3>
+                        <span class="faq-toggle"></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui, nous collaborons avec la plupart des compagnies d'assurance médicale. N'hésitez pas à nous contacter pour vérifier si votre assurance est acceptée.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="faq-question">
+                        <h3>Proposez-vous des consultations à distance ?</h3>
+                        <span class="faq-toggle"></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui, nous offrons des consultations par vidéoconférence pour certaines spécialités. Contactez-nous pour plus d'informations sur ce service.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Contactez-nous</h2>
+                <p class="section-subtitle">Nous sommes à votre écoute</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <img src="./assets/images/icons/location.svg" alt="Adresse">
+                        </div>
+                        <div class="info-content">
+                            <h3>Adresse</h3>
+                            <p>Agoè Atchanvé, à côté d'Agrovet</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <img src="./assets/images/icons/phone.svg" alt="Téléphone">
+                        </div>
+                        <div class="info-content">
+                            <h3>Téléphone</h3>
+                            <p>(+228) 93 05 39 70</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <img src="./assets/images/icons/email.svg" alt="Email">
+                        </div>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p>clinique001esperance@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="map-container" data-aos="fade-up" data-aos-delay="300">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322283!2d1.1800292142029452!3d6.19827139554535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e1c2adaa97ed%3A0x30a39c4a4bbc8c3e!2sAgoe!5e0!3m2!1sfr!2stg!4v1620292565222!5m2!1sfr!2stg" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="./assets/images/logo-white.svg" alt="Clinique Esperance Logo">
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <img src="./assets/images/icons/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <img src="./assets/images/icons/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <img src="./assets/images/icons/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <img src="./assets/images/icons/linkedin.svg" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Clinique Esperance</h3>
+                    <p>Votre santé est notre priorité. Nous proposons des soins médicaux et cardiologiques de qualité.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Liens rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#about">À Propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Équipe</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Médecine générale</a></li>
+                        <li><a href="#services">Cardiologie</a></li>
+                        <li><a href="#services">Traumatologie</a></li>
+                        <li><a href="#services">Vaccinations</a></li>
+                        <li><a href="#services">Analyses médicales</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <address>
+                        <p>Agoè Atchanvé, à côté d'Agrovet</p>
+                        <p>Téléphone: (+228) 93 05 39 70</p>
+                        <p>Email: clinique001esperance@gmail.com</p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Clinique Esperance. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="backToTop" class="back-to-top" aria-label="Retour en haut">
+        <img src="./assets/images/icons/arrow-up.svg" alt="Flèche vers le haut">
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

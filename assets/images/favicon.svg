@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Symbole médical avec cœur -->
+  <rect width="32" height="32" rx="6" fill="#1241a0"/>
+  <path d="M16 6C11.582 6 8 9.582 8 14C8 22 16 28 16 28C16 28 24 22 24 14C24 9.582 20.418 6 16 6Z" fill="white"/>
+  <path d="M13 16L16 19L19 16L22 19" stroke="#1241a0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="23" cy="9" r="5" fill="#20bf55"/>
+  <path d="M23 7V11" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M21 9H25" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
